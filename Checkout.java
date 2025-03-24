@@ -57,6 +57,15 @@ public class Checkout extends JFrame implements ActionListener {
     static int currOrderNum = 1;
 
     /**
+     * Default constructor for checkout class
+     * Initializes the checkout object
+     * 
+     */
+    public Checkout() {
+      return;
+    }
+
+    /**
      * Main entry point of the application.
      * Initializes the checkout system and sets up GUI components.
      * 

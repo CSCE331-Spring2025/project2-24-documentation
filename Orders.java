@@ -76,7 +76,7 @@ public class Orders extends JDialog {
      * Orders are fetched in descending order of date and time.
      * If no more orders are available, the load button is disabled.
      */
-    private void getOrders() {
+    public void getOrders() {
         try {
             connection = DriverManager.getConnection(
                 String.format("jdbc:postgresql://csce-315-db.engr.tamu.edu/%s", "team_24_db"),
